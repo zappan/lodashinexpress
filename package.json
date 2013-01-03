@@ -1,0 +1,14 @@
+{
+  "name": "lodashexpress",
+  "description": "Enables lodash templates in express 2 and 3. Derivative work off of uinexpress project by Harald Rudell.",
+  "author": "Tomislav Capan <tomislav.capan@ivendi.com>",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iVendi/lodashexpress.git"
+  },
+  "dependencies": {
+    "lodash": ""
+  },
+  "main": "./lib/lodashexpress"
+}
