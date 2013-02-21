@@ -1,4 +1,4 @@
-# lodashexpress
+# lodashinexpress
 
 Enables lodash templates in express versions 2 and 3.
 
@@ -10,14 +10,14 @@ that enables using underscore as a rendering engine for express.js
 in your express app.js, for express 3:
 
     app.configure(function () {
-      app.engine('html', require('lodashexpress').__express)
+      app.engine('html', require('lodashinexpress').__express)
       app.set('view engine', 'html')
     });
 
 in your express app.js, for express 2:
 
     app.configure(function () {
-      app.register('html', require('lodashexpress'))
+      app.register('html', require('lodashinexpress'))
       app.set('view engine', 'html')
     });
 
